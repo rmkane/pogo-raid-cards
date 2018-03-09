@@ -1,0 +1,22 @@
+{
+  "browser"      : true,
+  "esversion"    : 6,
+
+  "curly"        : true, // true: Require {} for every new block or scope
+  "eqnull"       : true, // true: Tolerate use of `== null`
+  "eqeqeq"       : true, // true: Require triple equals (===) for comparison ** Just use triples with undefined, null, false, 0 and 1 **
+  "undef"        : true, // true: Require all non-global variables to be declared (prevents global leaks)
+  
+  "globals"      : {     // ** `false` = don't allow variable to be redefined locally
+
+    // Libraries
+    "jQuery"     : true,
+    "Handlebars" : true,
+    "module"     : true,
+    "$"          : true,
+
+    // Custom
+    "Constants"  : true,
+    "Formulas"   : true
+  }
+}

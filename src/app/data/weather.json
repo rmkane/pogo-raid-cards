@@ -1,0 +1,30 @@
+{
+  "Clear": {
+    "boostedTypes" : [ "Fire", "Grass", "Ground" ],
+    "weatherIcon" : "day-sunny"
+  },
+  "Partly Cloudy": {
+    "boostedTypes" : [ "Normal", "Rock" ],
+    "weatherIcon" : "day-cloudy"
+  },
+  "Cloudy": {
+    "boostedTypes" : [ "Fairy", "Fighting", "Poison" ],
+    "weatherIcon" : "cloudy"
+  },
+  "Windy": {
+    "boostedTypes" : [ "Dragon", "Flying", "Psychic" ],
+    "weatherIcon" : "cloudy-gusts"
+  },
+  "Rain": {
+    "boostedTypes" : [ "Bug", "Electric", "Water" ],
+    "weatherIcon" : "umbrella"
+  },
+  "Fog": {
+    "boostedTypes" : [ "Dark", "Ghost" ],
+    "weatherIcon" : "fog"
+  },
+  "Snow": {
+    "boostedTypes" : [ "Ice", "Steel" ],
+    "weatherIcon" : "snowflake-cold"
+  }
+}

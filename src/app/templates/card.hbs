@@ -1,0 +1,29 @@
+<div class="raid-boss-entries">
+  {{#each bosses}}
+    <div class="raid-boss-entry {{bossClasses this}}">
+      <div class="tier">{{tier}}</div>
+      <div class="pokemon">{{dexFormat dex}} {{pokemon}} {{#if shiny}}✨{{/if}}</div>
+      <div class="types">{{formatArray types}}</div>
+      <div class="details">
+        <div class="boss-info">
+          <div class="cp-boss">{{formatNmumber bossCp}}</div>
+          <div class="hp-boss">{{formatNmumber bossHp}}</div>
+        </div>
+        <div class="capture-info">
+          <div class="cp-range">
+            <div>{{cp this 20 10 10 10}}</div> 20 <div>{{cp this 20 15 15 15}}</div>
+          </div>
+          <div class="cp-range">
+            <div>{{cp this 25 10 10 10}}</div> 25 <div>{{cp this 25 15 15 15}}</div>
+          </div>
+        </div>
+        <!--  <div class="boosts">{{boostSymbols this}}</div> -->
+        <div class="boosts">
+          {{#each weatherBoosts}}
+            <i class="wi wi-{{getWeatherIcon this}}"></i>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

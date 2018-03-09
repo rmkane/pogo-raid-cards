@@ -1,0 +1,107 @@
+body {
+  background: #556;
+}
+
+.raid-icon {
+  display: inline-block;
+  background :url('https://raw.githubusercontent.com/ZeChrales/PogoAssets/master/static_assets/png/SpriteAtlasTexture-raid_ui-256x512-fmt47.png') 0 0 no-repeat;
+  margin: 0.1em;
+}
+.raid-icon-normal {
+  background-position: 0 -278px;
+  width: 116px;
+  height: 104px;
+}
+.raid-icon-legendary {
+  background-position: -126px -384px;
+  width: 104px;
+  height: 94px;
+}
+
+.raid-boss-entries {
+  margin: 0 auto;  
+}
+.raid-boss-entry {
+  display: inline-block;
+  border: 2px solid Grey;
+  width: 12em;
+  text-align: center;
+  padding: 0.25em;
+  margin: 0.25em;
+  border-radius: 5%;
+  text-shadow: #FFF 0.05em 0.05em 0.05em;
+}
+.raid-boss-entry .pokemon {
+  margin-top: 0.33em;
+  margin-bottom: 0.25em;
+  font-weight: bold;
+  font-size: larger;
+}
+.raid-boss-entry .types {
+  font-size: smaller;
+}
+.raid-boss-entry .tier {
+  margin-top: 0.25em;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+  font-style: italic;
+}
+.raid-boss-entry .tier:before {
+  content: "Tier ";
+}
+.raid-boss-entry .details .boss-info {
+  margin: 0.5em auto;
+}
+.raid-boss-entry .details .boss-info div {
+  margin: 0.15em auto;
+}
+.raid-boss-entry .details .boss-info .cp-boss:before {
+  content: "CP "
+}
+.raid-boss-entry .details .boss-info .hp-boss:before {
+  content: "HP "
+}
+.raid-boss-entry .details .capture-info {
+  margin: 0.5em auto;
+}
+.raid-boss-entry .details .capture-info .cp-range {
+  margin: 0.15em auto;
+}
+.raid-boss-entry .details .capture-info .cp-range div {
+  display: inline-block;
+}
+.raid-boss-entry .details .capture-info .cp-range div:first-child:after {
+  content: ' ←';
+}
+.raid-boss-entry .details .capture-info .cp-range div:last-child:before {
+  content: '→ ';
+}
+.raid-boss-entry .details .boosts {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.type-bug      { background: #B4CA29; border-color: #99C631; text-shadow:  #99C631 0.1em 0.1em 0.1em }
+.type-dark     { background: #5B606C; border-color: #4A4858; text-shadow:  #4A4858 0.1em 0.1em 0.1em; color: #FFF; }
+.type-dragon   { background: #0693CF; border-color: #0763AD; text-shadow:  #0763AD 0.1em 0.1em 0.1em }
+.type-electric { background: #FBE271; border-color: #F5D13E; text-shadow:  #F5D13E 0.1em 0.1em 0.1em }
+.type-fairy    { background: #F7ABDE; border-color: #EF8DDE; text-shadow:  #EF8DDE 0.1em 0.1em 0.1em }
+.type-fighting { background: #CE426B; border-color: #E24653; text-shadow:  #E24653 0.1em 0.1em 0.1em }
+.type-fire     { background: #FFAE4A; border-color: #FF9C52; text-shadow:  #FF9C52 0.1em 0.1em 0.1em }
+.type-flying   { background: #A5C2F1; border-color: #88ADDE; text-shadow:  #88ADDE 0.1em 0.1em 0.1em }
+.type-ghost    { background: #7376DC; border-color: #526BAE; text-shadow:  #526BAE 0.1em 0.1em 0.1em }
+.type-grass    { background: #8CD26B; border-color: #63BD52; text-shadow:  #63BD52 0.1em 0.1em 0.1em }
+.type-ground   { background: #D6996A; border-color: #D87846; text-shadow:  #D87846 0.1em 0.1em 0.1em }
+.type-ice      { background: #90DBD8; border-color: #71CEC2; text-shadow:  #71CEC2 0.1em 0.1em 0.1em }
+.type-normal   { background: #AEACA5; border-color: #9399A5; text-shadow:  #9399A5 0.1em 0.1em 0.1em }
+.type-poison   { background: #C55ED6; border-color: #A567C7; text-shadow:  #A567C7 0.1em 0.1em 0.1em }
+.type-psychic  { background: #EDA49B; border-color: #F86E76; text-shadow:  #F86E76 0.1em 0.1em 0.1em }
+.type-rock     { background: #DDD294; border-color: #C6BD8C; text-shadow:  #C6BD8C 0.1em 0.1em 0.1em }
+.type-steel    { background: #5EB0AD; border-color: #5A90A9; text-shadow:  #5A90A9 0.1em 0.1em 0.1em }
+.type-water    { background: #71C4EA; border-color: #5395DE; text-shadow:  #5395DE 0.1em 0.1em 0.1em }
+
+.tier-1 { border-color: #DD88DD; }
+.tier-2 { border-color: #DD88DD; }
+.tier-3 { border-color: #EEBB00; }
+.tier-4 { border-color: #EEBB00; }
+.tier-5 { border-color: #AA44FF; }
